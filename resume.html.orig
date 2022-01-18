@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<title>
+		Adam Ryan Resume
+	</title>
+
+	<style>
+body
+	{
+	background-color: #282a36;
+	font-family: Verdana, Helvetica;
+	color: #e8e9f1;
+	margin: 2;
+	padding: 3;
+}
+h2 
+	{
+	color: #7ec6eb;
+}
+	</style>
+
+</head>
+
+<body>
+
+<h1>
+	Adam Ryan
+</h1>
+
+<nav id="contact">
+
+	<b>Contact me:</b> <a href="mailto:emailadamnow@icloud.com">Email</a> <a href="https://www.linkedin.com/in/adam-ryan-658756142/">LinkedIn</a> <a href="https://www.facebook.com/people/Adam-Ryan/100077245422976/">Facebook</a>
+
+</nav>
+
+<h2 id="skills">
+	Skills and Abilities
+</h2>
+
+<ul type="none">
+	<li>Fluent in English and French.</li>
+	<li>Punctual.</li>
+	<li>Attention to detail.</li>
+	<li>Self Motivated.</li>
+	<li>Strong customer service skills.</li>
+	<li>Experienced in working within a team or independently.</li>
+	<li>Strong knowledge of PC compatible hardware and computer systems.</li>
+	<li>Strong knowledge of Windows, MacOS, GNU/Linux, iOS, Android, SAP Order Management Systems.</li>
+	<li>Knowledge of HTML</li>
+</ul>
+
+<h2 id="education">
+	Education
+</h2>
+
+<p></p>
+<p>
+June 2001 - <b>High school diploma</b> - Wagar High Shool
+</p>
+
+<p>
+Currently - <b>HTML, CSS and Javascript for Web Developpers</b> from Johns Hopkins University at Coursera
+</p>
+
+<h2 id="experience">
+	Work Experience
+</h2>
+
+<h4 id="apple">
+	Apple Carrefour Laval: November 2017 – June 2021
+</h4>
+
+<p></p>
+
+<p>
+<b>Technical Specialist</b> – Responsible for resolving and noting technical issues with customer’s Apple
+devices in store while maintaining an overall interaction time average of 15 minutes. Making decisions
+as to when hardware replacement solutions are needed. Working with other teams to provide unique
+solutions when needed. Maintaining Apple level customer service is a top priority of course.
+</p>
+
+<p>
+<b>Specialist</b> – Responsible for providing Apple level customer service while discovering customer’s needs
+and advising for the best product solutions within the customer’s budget, including setting up carrier
+contracts and promoting Apple services, such as business solutions, learning to use products, Apple
+Music, Apple TV, Apple News+, Apple iCloud, Apple Arcade.
+</p>
+
+<p>
+<b>Order Support</b> – During the pandemic, I quickly pivoted to a new work from home role whereby I was
+meeting customer’s needs for the online store. As such, I quickly learned to use SAP as well as other
+solutions to communicate directly with shipping carriers and phone carriers to provide Apple level
+customer service.
+</p>
+
+<h4 id="second cup">
+	Second Cup Carrefour Laval: October 2013 – October 2017
+</h4>
+
+<p>
+<b>Shift Leader</b> – Due to my past experience working in a Second Cup, I quickly became a shift leader and the main
+store closer 5 days a week. As a shift leader I was responsible for myself and those working with me, I
+also took care of the deposits and made sure everything was running smoothly while I was on shift,
+quickly taking care of any problems that should arise.
+</p>
+
+</body>
+</html>
