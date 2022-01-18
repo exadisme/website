@@ -21,6 +21,13 @@ h2
 	color: #7ec6eb;
 }
 
+.tehHeading
+	{
+	height:50px;
+	vertical-align: middle;
+	background-color: #af87ff;
+}
+
 .extra
 	{
 	color: #fe87d6;
