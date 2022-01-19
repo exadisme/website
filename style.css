@@ -3,8 +3,9 @@ body
 	background-color: #282a36;
 	font-family: Verdana, Helvetica;
 	color: #e8e9f1;
-	padding: 0% !important;
-	margin: 0% !important;
+	padding: 0px !important;
+	margin: 0px !important;
+	margin-top: 0px !important;
 }
 
 h1
@@ -12,6 +13,8 @@ h1
 	color: #ffff87;
 	background-color: #333541;
 	text-align: center;
+	margin: 0px;
+	padding: 0px;
 }
 
 h2 
