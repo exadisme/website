@@ -3,8 +3,6 @@ body
 	background-color: #282a36;
 	font-family: Verdana, Helvetica;
 	color: #e8e9f1;
-	margin: 0px !important;
-	padding: 0% !important;
 }
 
 h1
@@ -12,8 +10,13 @@ h1
 	color: #ffff87;
 	background-color: #333541;
 	text-align: center;
-	margin: 0px;
-	padding: 0px;
+	margin: 0px !important;
+	padding: 0px !important;
+}
+
+h2, h3, h4 p, ul {
+	margin: 5%;
+	padding: 0%;
 }
 
 h2 
