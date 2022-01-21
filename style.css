@@ -1,59 +1,49 @@
-body
-	{
-	background-color: #282a36;
-	font-family: Verdana, Helvetica;
-	color: #e8e9f1;
-	padding: 0px !important;
-	margin: 0px !important;
+body {
+    background-color: #282a36;
+    font-family: Verdana, Helvetica;
+    color: #e8e9f1;
+    padding: 0 !important;
+    margin: 0 !important;
 }
 
-h1
-	{
-	color: #7ec6eb;
-	background-color: #333541;
-	text-align: center;
-	margin: 0px;
-	padding: 0px;
+h1 {
+    color: #7ec6eb;
+    background-color: #333541;
+    text-align: center;
+    margin: 0;
+    padding: 0;
 }
 
-h2 
-	{
-	color: #ffff87;
+h2 {
+    color: #ffff87;
 }
 
-.
-	{
-	background-color: #333541;
-	padding: 10px;
+.sectional {
+    background-color: #333541;
+    padding: 10px;
 }
 
-.marginsbb 
-	{
-	margin: 3%;
+.marginsbb {
+    margin: 3%;
 }
 
-.extra
-	{
-	color: #fe87d6;
+.extra {
+    color: #fe87d6;
 }
 
-#contact
-	{
-	text-align: center;
-	color: #5fff87;
+#contact {
+    text-align: center;
+    color: #5fff87;
 }
 
-a:link
-	{
-	color: #af87ff;
+a:link {
+    color: #af87ff;
 }
 
-a:visited
-	{
-	color: #af87ff;
+a:visited {
+    color: #af87ff;
 }
 
-a:hover
-		{
-	color: #5fff87;
+a:hover {
+    color: #5fff87;
 }
