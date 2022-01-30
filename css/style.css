@@ -15,8 +15,13 @@ h1 {
 }
 
 h2 {
-    color: #ffff87;/*Desktop Stylings 992px+ */
-@media (min-width: 992px) {    
+    color: #ffff87;
+}
+
+/*Desktop Stylings 992px+ */
+
+
+    @media (min-width: 992px) {    
 
     section {
         background-color: #999999;
@@ -37,7 +42,7 @@ h2 {
         width: 100%;
         margin: auto;
         margin-right: -2%;
-}
+    }
 
     section#p1 {
         background-color: #999999;
@@ -75,7 +80,7 @@ h2 {
         width: 100%;
         margin: auto;
         margin-right: -3%;
-}
+    }
 
     section#p1 {
         background-color: #999999;
@@ -105,34 +110,4 @@ h2 {
         margin-top: 2%;
         float: left;
     }
-}
-
-.sectional {
-    background-color: #333541;
-    padding: 10px;
-}
-
-.marginsbb {
-    margin: 3%;
-}
-
-.extra {
-    color: #fe87d6;
-}
-
-#contact {
-    text-align: center;
-    color: #5fff87;
-}
-
-a:link {
-    color: #af87ff;
-}
-
-a:visited {
-    color: #af87ff;
-}
-
-a:hover {
-    color: #5fff87;
 }
