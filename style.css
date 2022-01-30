@@ -15,7 +15,96 @@ h1 {
 }
 
 h2 {
-    color: #ffff87;
+    color: #ffff87;/*Desktop Stylings 992px+ */
+@media (min-width: 992px) {    
+
+    section {
+        background-color: #999999;
+        border: 1px solid black;
+        color: #000000;
+        width: 30%;
+        float: left;
+        margin-left: 2%;
+        margin-right: auto;
+    }
+}
+
+
+/*Tablet Stylings 768-991px */
+@media (min-width: 768px) and (max-width: 991px) {
+
+    div#container {
+        width: 100%;
+        margin: auto;
+        margin-right: -2%;
+}
+
+    section#p1 {
+        background-color: #999999;
+        border: 1px solid black;
+        color: #000000;
+        width: 45%;
+        margin-left: 2%;
+        float: left;
+    }
+
+    section#p2 {
+        background-color: #999999;
+        border: 1px solid black;
+        color: #000000;
+        width: 45%;
+        margin-left: 2%;
+        float: left;
+    }
+
+    section#p3 {
+        background-color: #999999;
+        border: 1px solid black;
+        color: #000000;
+        width: 92%;
+        margin-left: 2%;
+        float: left;
+        margin-top: 2%;
+    }
+}
+
+/*Mobile Stylings 767px- */
+@media (max-width:767px) {
+
+    div#container {
+        width: 100%;
+        margin: auto;
+        margin-right: -3%;
+}
+
+    section#p1 {
+        background-color: #999999;
+        border: 1px solid black;
+        color: #000000;
+        width: 90%;
+        margin-left: 2%;
+        float: left;
+    }
+
+    section#p2 {
+        background-color: #999999;
+        border: 1px solid black;
+        color: #000000;
+        width: 90%;
+        margin-left: 2%;
+        margin-top: 2%;
+        float: left;
+    }
+
+    section#p3 {
+        background-color: #999999;
+        border: 1px solid black;
+        color: #000000;
+        width: 90%;
+        margin-left: 2%;
+        margin-top: 2%;
+        float: left;
+    }
 }
 
 .sectional {
