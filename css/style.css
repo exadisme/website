@@ -53,14 +53,14 @@ ul {
         flex-direction: column;
         flex-wrap: wrap;
         margin: 20px auto auto 280px;
-        height: 800px;
+        height: 900px;
         width: 700px;
     }
   
     .div {
         border-radius: 10px;
         width: 80%;
-        flex: 0 0 45%;
+        flex: 0 0 410px;
         margin: 20px;
         padding: 20px;
         background-color: #282a36;
@@ -68,7 +68,8 @@ ul {
     }
   
     .big {
-            flex-basis: 95%;
+            flex-basis: 860px;
+            overflow: auto;
     }
 
 }
