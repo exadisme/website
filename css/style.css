@@ -15,7 +15,22 @@ ul {
     text-align: left;
     margin:30px;
 }
-#about {
+
+#underheader {
+    color: #8bd8ab;
+    font-size: 15px ;
+    margin-left: 40px;
+    margin-top: -40px;
+}
+
+a {
+    color: #7fd1e4;
+    text-decoration: none;
+}
+a:hover {
+    color: #dae98a;
+}
+h2 {
     color: #8bd8ab;
 }
 
@@ -33,19 +48,29 @@ ul {
     }
 
     h1 {
-        font-size: 2.5em;
+        font-size: 3.2em;
         color: #c990cc;
         position: relative;
-        top: 20px;
+        top: 0px;
         text-align: center;
         margin-left: auto;
         float: top left;
     }
 
     .links {
+        margin: auto -20px 30px;
+    }
+
+    #list {
         position: relative;
+        top: 80px;
         float: top left;
-        margin-top: 60px;
+        margin-left: 20px;
+        margin-top: 30px;
+        padding: 5px;
+        border-radius: 10px;
+/*      background-color: #242632 ; Not sure about this one */ 
+        width: 180px;
     }
 
     #outer {
