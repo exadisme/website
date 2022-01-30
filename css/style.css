@@ -1,6 +1,7 @@
 * {
     box-sizing: border-box;
 }
+
 body {
     background-color: #363949;
     font-family: Ubuntu, Helvetica;
@@ -9,16 +10,26 @@ body {
     margin: 0 !important;
 }
 
+ul {
+    list-style: none;
+    text-align: left;
+    margin:30px;
+}
+#about {
+    color: #8bd8ab;
+}
 
 /*Desktop Stylings 992px+ */
-@media (min-width: 992px) {    
+@media (min-width: 1400px) {    
     nav {
         position: absolute;
         left: 0;
+        top: 0;
         height: 100%;
-        width: 200px;
-        float: left;
+        width: 260px;
+        float: top left;
         background-color: #282a36;
+        box-shadow: 5px 0px 5px #1f2029;
     }
 
     h1 {
@@ -32,66 +43,32 @@ body {
     }
 
     .links {
-        text-align: center;
         position: relative;
         float: top left;
         margin-top: 60px;
     }
 
-    section > div {
-        background-color: #999999;
-        box-shadow: #000000;
-        border: 1px solid black;
-        color: #000000;
-        width: 30%;
-        height: 200px;
+    #outer {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin: 20px auto auto 280px;
+        height: 800px;
+        width: 700px;
+    }
+  
+    .div {
         border-radius: 10px;
-        position: relative;
-        margin-left: 220px;
-        float: left;
+        width: 80%;
+        flex: 0 0 45%;
+        margin: 20px;
+        padding: 20px;
+        background-color: #282a36;
+        box-shadow: 5px 5px 5px #1f2029;
     }
-}
-
-/*Tablet Stylings 768-991px */
-@media (min-width: 768px) and (max-width: 991px) {
-
-}
-
-/*Mobile Stylings 767px- */
-@media (max-width:767px) {
-
-    div#container {
-        width: 100%;
-        margin: auto;
-        margin-right: -3%;
+  
+    .big {
+            flex-basis: 95%;
     }
 
-    section#p1 {
-        background-color: #999999;
-        border: 1px solid black;
-        color: #000000;
-        width: 90%;
-        margin-left: 2%;
-        float: left;
-    }
-
-    section#p2 {
-        background-color: #999999;
-        border: 1px solid black;
-        color: #000000;
-        width: 90%;
-        margin-left: 2%;
-        margin-top: 2%;
-        float: left;
-    }
-
-    section#p3 {
-        background-color: #999999;
-        border: 1px solid black;
-        color: #000000;
-        width: 90%;
-        margin-left: 2%;
-        margin-top: 2%;
-        float: left;
-    }
 }
