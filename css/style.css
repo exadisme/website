@@ -1,76 +1,60 @@
+* {
+    box-sizing: border-box;
+}
 body {
-    background-color: #282a36;
-    font-family: Verdana, Helvetica;
+    background-color: #363949;
+    font-family: Ubuntu, Helvetica;
     color: #e8e9f1;
     padding: 0 !important;
     margin: 0 !important;
 }
 
-h1 {
-    color: #7ec6eb;
-    background-color: #333541;
-    text-align: center;
-    margin: 0;
-    padding: 0;
-}
-
-h2 {
-    color: #ffff87;
-}
 
 /*Desktop Stylings 992px+ */
+@media (min-width: 992px) {    
+    nav {
+        position: absolute;
+        left: 0;
+        height: 100%;
+        width: 200px;
+        float: left;
+        background-color: #282a36;
+    }
 
+    h1 {
+        font-size: 2.5em;
+        color: #c990cc;
+        position: relative;
+        top: 20px;
+        text-align: center;
+        margin-left: auto;
+        float: top left;
+    }
 
-    @media (min-width: 992px) {    
+    .links {
+        text-align: center;
+        position: relative;
+        float: top left;
+        margin-top: 60px;
+    }
 
-    section {
+    section > div {
         background-color: #999999;
+        box-shadow: #000000;
         border: 1px solid black;
         color: #000000;
         width: 30%;
+        height: 200px;
+        border-radius: 10px;
+        position: relative;
+        margin-left: 220px;
         float: left;
-        margin-left: 2%;
-        margin-right: auto;
     }
 }
-
 
 /*Tablet Stylings 768-991px */
 @media (min-width: 768px) and (max-width: 991px) {
 
-    div#container {
-        width: 100%;
-        margin: auto;
-        margin-right: -2%;
-    }
-
-    section#p1 {
-        background-color: #999999;
-        border: 1px solid black;
-        color: #000000;
-        width: 45%;
-        margin-left: 2%;
-        float: left;
-    }
-
-    section#p2 {
-        background-color: #999999;
-        border: 1px solid black;
-        color: #000000;
-        width: 45%;
-        margin-left: 2%;
-        float: left;
-    }
-
-    section#p3 {
-        background-color: #999999;
-        border: 1px solid black;
-        color: #000000;
-        width: 92%;
-        margin-left: 2%;
-        float: left;
-        margin-top: 2%;
-    }
 }
 
 /*Mobile Stylings 767px- */
