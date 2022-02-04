@@ -74,7 +74,6 @@ h2 {
     }
 
     #outer {
-        display: flex;
         margin: 20px auto auto 280px;
         height: 900px;
         width: 700px;
@@ -90,7 +89,6 @@ h2 {
     }
   
     .big {
-            flex-basis: 860px;
             overflow: auto;
     }
 
@@ -156,9 +154,6 @@ h2 {
     }
 
     #outer {
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
         margin: 105px auto auto 20px;
         height: 900px;
         width: 700px;
@@ -167,7 +162,6 @@ h2 {
     .div {
         border-radius: 10px;
         width: 80%;
-        flex: 0 0 410px;
         margin: 20px;
         padding: 20px;
         background-color: #282a36;
@@ -175,7 +169,6 @@ h2 {
     }
   
     .big {
-            flex-basis: 860px;
             overflow: auto;
     }
 
@@ -241,9 +234,6 @@ h2 {
     }
 
     #outer {
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
         margin: 105px auto auto 20px;
         height: 900px;
         width: 700px;
@@ -252,7 +242,6 @@ h2 {
     .div {
         border-radius: 10px;
         width: 80%;
-        flex: 0 0 410px;
         margin: 20px;
         padding: 20px;
         background-color: #282a36;
@@ -260,7 +249,6 @@ h2 {
     }
   
     .big {
-            flex-basis: 860px;
             overflow: auto;
     }
 
@@ -301,8 +289,6 @@ h2 {
         position: absolute;
         float: top;
         padding: 0;
-/*      border-radius: 10px;
-        background-color: #242632 ; Not sure about this one*/  
         width: 300px;
         height: 100px;
     }
@@ -327,9 +313,6 @@ h2 {
     }
 
     #outer {
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
         margin: 105px auto auto 20px;
         height: 900px;
         width: 700px;
@@ -338,7 +321,6 @@ h2 {
     .div {
         border-radius: 10px;
         width: 80%;
-        flex: 0 0 410px;
         margin: 20px;
         padding: 20px;
         background-color: #282a36;
@@ -346,7 +328,6 @@ h2 {
     }
   
     .big {
-            flex-basis: 860px;
             overflow: auto;
     }
 
