@@ -20,22 +20,23 @@ a {
     color: #7fd1e4;
     text-decoration: none;
 }
+
 a:hover {
     color: #dae98a;
 }
+
 h2 {
     color: #8bd8ab;
 }
 
-/*Desktop Stylings 1400px+ */
-@media (min-width: 1400px) {    
+/*Desktop Stylings 1200+px */
+@media (min-width: 1200) {    
     nav {
-        position: absolute;
+        position: fixed;
         left: 0;
         top: 0;
         height: 100%;
         width: 260px;
-        float: top left;
         background-color: #282a36;
         box-shadow: 5px 0px 5px #1f2029;
     }
@@ -68,8 +69,7 @@ h2 {
         margin-left: 20px;
         margin-top: 30px;
         padding: 5px;
-        border-radius: 10px;
-/*      background-color: #242632 ; Not sure about this one */ 
+        border-radius: 10px; 
         width: 180px;
     }
 
@@ -99,10 +99,10 @@ h2 {
 
 }
 
-/*Desktop Stylings 1210px+ */
-@media (min-width: 1210px) and (max-width: 1399px) {    
+/*Desktop Stylings 992px+ */
+@media (min-width: 992px) and (max-width: 1199px) {    
     nav {
-        position: absolute;
+        position: fixed;
         left: 0;
         top: 0;
         height: 100px;
@@ -134,9 +134,7 @@ h2 {
     #list {
         position: absolute;
         float: top;
-        padding: 0;
-/*      border-radius: 10px;
-        background-color: #242632 ; Not sure about this one*/  
+        padding: 0;  
         width: 300px;
         height: 100px;
     }
@@ -186,10 +184,10 @@ h2 {
 
 }
 
-/*Desktop Stylings 1210px+ */
-@media (min-width: 800px) and (max-width: 1209px) {    
+/*Desktop Stylings 768px+ */
+@media (min-width: 768px) and (max-width: 991px) {    
     nav {
-        position: absolute;
+        position: fixed;
         left: 0;
         top: 0;
         height: 100px;
@@ -221,9 +219,7 @@ h2 {
     #list {
         position: absolute;
         float: top;
-        padding: 0;
-/*      border-radius: 10px;
-        background-color: #242632 ; Not sure about this one*/  
+        padding: 0;  
         width: 300px;
         height: 100px;
     }
@@ -272,10 +268,10 @@ h2 {
     }
 
 }
-/*Desktop Stylings 1210px+ */
-@media (min-width: 600px) and (max-width: 799px) {    
+/*Desktop Stylings 576px+ */
+@media (min-width: 576px) and (max-width: 767px) {    
     nav {
-        position: absolute;
+        position: fixed;
         left: 0;
         top: 0;
         height: 100px;
