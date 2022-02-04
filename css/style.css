@@ -83,15 +83,14 @@ h2 {
     }
 
     #photo {
-        text-align: center;
         width: 280px;
         height: 244px;
+        padding-top: 40px;
+        padding-right: 20px;
     }
 
     #about {
-        float: center;
         height: 244px;
-        padding-left: 40px;
         width: 620px;
     }
 
@@ -101,8 +100,7 @@ h2 {
         height: 50%;
         float: left;
         margin: 10px;
-        padding: 20px;
-        padding-top: -5px;
+        padding-left: 20px;
         background-color: #282a36;
         box-shadow: 5px 5px 5px #1f2029;
     }
@@ -176,20 +174,24 @@ h2 {
     #outer {
         margin: 105px auto auto 20px;
         height: 900px;
-        width: 100%;
+        width: 90%;
     }
-  
+    
+    #outinner {
+        margin: auto;
+    }
+
     #photo {
-        text-align: center;
         width: 280px;
         height: 244px;
+        padding-top: 40px;
+        padding-right: 20px;
     }
 
     #about {
-        float: center;
         height: 244px;
-        padding-left: 40px;
-        width: 635px;
+        width: 540px;
+        padding-top: 5px;
     }
 
     .div {
@@ -273,10 +275,20 @@ h2 {
         width: 700px;
     }
   
+    #outinner {
+        margin: auto;
+    }
+
     #photo {
-        text-align: center;
         width: 280px;
         height: 244px;
+        padding-top: 40px;
+        padding-right: 20px;
+    }
+
+    #about {
+        height: 244px;
+        padding-top: 5px;
     }
 
     .div {
@@ -357,11 +369,21 @@ h2 {
         height: 900px;
         width: 700px;
     }
-  
+    
+    #outinner {
+        margin: auto;
+    }
+
      #photo {
-        text-align: center;
         width: 280px;
         height: 244px;
+        padding-top: 40px;
+        padding-right: 20px;
+    }
+
+    #about {
+        height: 244px;
+        padding-top: 5px;
     }
 
     .div {
