@@ -38,7 +38,6 @@ h2 {
         height: 100%;
         width: 260px;
         background-color: #282a36;
-        box-shadow: 5px 0px 5px #1f2029;
     }
 
     h1 {
@@ -74,23 +73,44 @@ h2 {
     }
 
     #outer {
-        margin: 10px auto auto 280px;
+        margin-left: 280px;
         height: 900px;
-        width: 920px;
+        width: 75%;
     }
-  
+
+    #outinner {
+        margin: auto;
+    }
+
+    #photo {
+        text-align: center;
+        width: 280px;
+        height: 244px;
+    }
+
+    #about {
+        float: center;
+        height: 244px;
+        padding-left: 40px;
+        width: 620px;
+    }
+
     .div {
+        position: relative;
         border-radius: 10px;
-        width: 30%;
+        height: 50%;
         float: left;
         margin: 10px;
         padding: 20px;
+        padding-top: -5px;
         background-color: #282a36;
         box-shadow: 5px 5px 5px #1f2029;
     }
   
     .big {
-            overflow: auto;
+        overflow: auto;
+        width: 920px;
+        height: 60%;
     }
 
 }
@@ -105,7 +125,6 @@ h2 {
         width: 100%;
         float: top;
         background-color: #282a36;
-        box-shadow: 0px 5px 5px #1f2029;
     }
 
     h1 {
@@ -157,12 +176,26 @@ h2 {
     #outer {
         margin: 105px auto auto 20px;
         height: 900px;
-        width: 700px;
+        width: 100%;
     }
   
+    #photo {
+        text-align: center;
+        width: 280px;
+        height: 244px;
+    }
+
+    #about {
+        float: center;
+        height: 244px;
+        padding-left: 40px;
+        width: 635px;
+    }
+
     .div {
+        position: relative;
         border-radius: 10px;
-        width: 80%;
+        float: left;
         margin: 20px;
         padding: 20px;
         background-color: #282a36;
@@ -171,6 +204,7 @@ h2 {
   
     .big {
             overflow: auto;
+            width: 86%;
     }
 
 }
@@ -185,7 +219,6 @@ h2 {
         width: 100%;
         float: top;
         background-color: #282a36;
-        box-shadow: 0px 5px 5px #1f2029;
     }
 
     h1 {
@@ -240,7 +273,14 @@ h2 {
         width: 700px;
     }
   
+    #photo {
+        text-align: center;
+        width: 280px;
+        height: 244px;
+    }
+
     .div {
+        position: relative;
         border-radius: 10px;
         width: 80%;
         margin: 20px;
@@ -264,7 +304,6 @@ h2 {
         width: 100%;
         float: top;
         background-color: #282a36;
-        box-shadow: 0px 5px 5px #1f2029;
     }
 
     h1 {
@@ -319,7 +358,14 @@ h2 {
         width: 700px;
     }
   
+     #photo {
+        text-align: center;
+        width: 280px;
+        height: 244px;
+    }
+
     .div {
+        position: relative;
         border-radius: 10px;
         width: 80%;
         margin: 20px;
