@@ -29,7 +29,7 @@ for (let i = 0; i < linkHovers.length; i++) {
     linkHovers[i].addEventListener("mouseover", function () {
         underLinkModals[i].classList.remove("hidden");
     });
-        linkHovers[i].addEventListener("mouseout", function () {
-            underLinkModals[i].classList.add("hidden");
+    linkHovers[i].addEventListener("mouseout", function () {
+        underLinkModals[i].classList.add("hidden");
     });
 }
