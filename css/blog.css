@@ -6,15 +6,16 @@ body {
     background-color: #1e1f29;
     text-align: center;
     font-family: 'Share Tech Mono', monospace;
+    font-style: normal;
     color: #e8e9f1;
     padding: 0 !important;
     margin: 0 !important;
 }
 
 h1 {
-    font-size: 5em;
+    font-size: 3em;
     text-align: left;
-    margin-left: -60px;
+    margin-left: -55px;
     color: #fa85d3;
 }
 
@@ -22,21 +23,15 @@ div #underheader {
     position: relative;
     text-align: left;
     color:#dae98a;
-    margin-top: -65px;
-    margin-left: 5px;
-}
-
-#about {
-    margin-top: 20px;
-    margin-left: -35px;
-    text-align: left;
-    width: 350px;
-    word-wrap: normal;
+    margin-top: -35px;
+    margin-left: -20px;
 }
 
 a {
     color: #7fd1e4;
     text-decoration: none;
+    margin: 10px;
+    font-style: normal;
 }
 
 a:hover {
@@ -69,22 +64,12 @@ h2 {
 }
 
 #closeblog {
-    position: absolute;
-    top: 15px;
-    right: 15px;
-    color: #7fd1e4;
-    font-size: 25px;
+    position: relative;
+    float: right;
+    font-size: 30px;
     font-style: normal;
+    margin-top: 10px;
     cursor: pointer;
-}
-
-#readmore {
-    position: absolute;
-    left: 10px;
-    top: 10px;
-    font-style: normal;
-    background-color: #1e1f29;
-    padding: 5px;
 }
 
 #blogscroll {
@@ -106,9 +91,17 @@ h2 {
 
 #links {
     margin-top: 10px;
-    margin-left: 30px;
-    font-size: 50px;
+    margin-left: -55px;
+    font-size: 25px;
+    font-style: normal;
 }
+
+#about {
+    margin-top: 40px;
+    margin-left: -65px;
+    text-align: left;
+}
+
 
 /*Desktop Stylings 1200+px */
 @media (min-width: 1200px) {    
