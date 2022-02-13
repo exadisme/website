@@ -5,6 +5,8 @@ const closeBlogModal = document.querySelector("#closeblog");
 const linkHovers = document.querySelectorAll(".link-hover");
 const underLinkModals = document.querySelectorAll(".underlink");
 
+// Modal for most recent blog post
+
 const blogButton = function () {
     if (!blogModal.classList.contains("hidden")) {
         blogModal.classList.add("hidden");   
@@ -13,16 +15,15 @@ const blogButton = function () {
     }
 }
 
+// Close recent blog model
+
 blogbtn.addEventListener("click", blogButton);
 
 closeBlogModal.addEventListener("click", function () {
     blogModal.classList.add("hidden");
 });
 
-// linkHovers[1].addEventListener("mouseover", function () {
-//          underLinkModals[1].classList.remove("hidden");
-// });
-
+// Creates mouseover events for link labels.
 
 for (let i = 0; i < linkHovers.length; i++) {
     linkHovers[i].addEventListener("mouseover", function () {
