@@ -110,6 +110,48 @@ h2 {
     font-size: 50px;
 }
 
+#underblog {
+    position: relative;
+    left: -190px;
+    top: -25px;
+    font-size: 15px;
+}
+
+#underprojects {
+    position: relative;
+    top: -25px;
+    left: -113px;
+    font-size: 15px;
+}
+
+#undergithub {
+    position: relative;
+    top: -25px;
+    left: -30px;
+    font-size: 15px;
+}
+
+#underlinkedin {
+    position: relative;
+    top: -25px;
+    left: 42px;
+    font-size: 15px;
+}
+
+#undertwitter {
+    position: relative;
+    top: -25px;
+    left: 112px;
+    font-size: 15px;
+}
+
+#underemail {
+    position: relative;
+    left: 186px;
+    top: -25px;
+    font-size: 15px;
+}
+
 /*Desktop Stylings 1200+px */
 @media (min-width: 1200px) {    
 }

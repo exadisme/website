@@ -12,6 +12,10 @@ body {
     margin: 0 !important;
 }
 
+#pfp {
+    margin: 0px;
+}
+
 h1 {
     font-size: 3em;
     text-align: left;
