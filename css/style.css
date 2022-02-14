@@ -170,12 +170,9 @@ h2 {
     }
 
 
-    /* #pfp {
-        width: 174px;
-        height: 149px;
-        margin-top: 20px;
-        margin-left: -180px;
-    } */
+    #pfp {
+        margin: 0px;
+    }
 
     div #underheader {
         position: relative;
@@ -194,7 +191,7 @@ h2 {
         font-size: 26px;
         width: 60%;
         height: 50px;
-        word-wrap: normal;
+        /* word-wrap: normal; */
     }
 
     a {
