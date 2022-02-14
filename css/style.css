@@ -322,19 +322,33 @@ h2 {
 /*Desktop Stylings 576px+ */
 @media (min-width: 0px) and (max-width: 767px) {    
      h1 {
-        font-size: 4em;
+        font-size: 7em;
         text-align: left;
         margin: auto;
         /* margin-left: -120px; */
         color: #fa85d3;
     }
 
-    /* #pfp {
-        width: 174px;
-        height: 149px;
-        margin-top: 20px;
-        margin-left: -180px;
-    } */
+    #container {
+        position: relative;
+        width: 100%;
+        height: 297px;
+        margin: auto;
+        /* margin-top: 30px; */
+    }
+
+    #inner {
+        display: inline-block;
+        width: 100%;
+        column-count: 2;
+    }
+
+    #pfp {
+        height: 297px;
+        width: 348px;
+        margin: 0px;
+        text-align: left;
+    }
 
     div #underheader {
         position: relative;
@@ -346,11 +360,14 @@ h2 {
     }
 
     #about {
-        margin-top: 10px;
-        margin-left: -110px;
+        /* margin-top: 10px;
+        margin-left: -110px; */
+        margin: auto;
         text-align: left;
-        width: 350px;
-        word-wrap: normal;
+        font-size: 30px;
+        /* width: 500px; */
+        /* height: 50px; */
+        /* word-wrap: normal; */
     }
 
     a {
@@ -411,17 +428,6 @@ h2 {
         overflow: auto;
         height: 380px;
         margin-top: -10px;
-    }
-
-    #container {
-        position: relative;
-        margin: auto;
-        /* margin-top: 30px; */
-    }
-
-    #inner {
-        display: inline-block;
-        column-count: 2;
     }
 
     #links {
