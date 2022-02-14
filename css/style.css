@@ -431,6 +431,7 @@ h2 {
     }
 
     #links {
+        top: 30px;
         margin: auto;
         /* margin-left: -40px; */
         font-size: 50px;
