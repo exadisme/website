@@ -154,301 +154,303 @@ h2 {
 
 /*Desktop Stylings 768px+ */
 @media (min-width: 768px) and (max-width: 991px) {    
-h1 {
-    font-size: 4em;
-    text-align: left;
-    margin-left: -60px;
-    color: #fa85d3;
-}
+    h1 {
+        font-size: 4em;
+        text-align: left;
+        margin-left: -60px;
+        color: #fa85d3;
+    }
 
-#pfp {
-    width: 174px;
-    height: 149px;
-}
+    #pfp {
+        width: 174px;
+        height: 149px;
+    }
 
-div #underheader {
-    position: relative;
-    text-align: left;
-    color:#dae98a;
-    margin-top: -50px;
-    margin-left: -60px;
-}
+    div #underheader {
+        position: relative;
+        text-align: left;
+        color:#dae98a;
+        margin-top: -50px;
+        margin-left: -60px;
+    }
 
-#about {
-    margin-top: 10px;
-    margin-left: -50px;
-    text-align: left;
-    width: 350px;
-    word-wrap: normal;
-}
+    #about {
+        margin-top: 10px;
+        margin-left: -50px;
+        text-align: left;
+        width: 350px;
+        word-wrap: normal;
+    }
 
-a {
-    color: #7fd1e4;
-    text-decoration: none;
-}
+    a {
+        color: #7fd1e4;
+        text-decoration: none;
+    }
 
-a:hover {
-    color: #dae98a;
-}
+    a:hover {
+        color: #dae98a;
+    }
 
-h2 {
-    color: #8bd8ab;
-}
+    h2 {
+        color: #8bd8ab;
+    }
 
-.hidden {
-    display: none;
-}
+    .hidden {
+        display: none;
+    }
 
-.latestpost {
-    position: absolute;
-    top: 42%;
-    left: 15%;
-    width: 70%;
-    height: 500px;
-    background-color: #262732;
-    border-radius: 10px;
-    box-shadow: 5px 5px 5px #171717;
-    padding-left: 30px;
-    padding-right: 30px;
-}
+    .latestpost {
+        position: absolute;
+        top: 42%;
+        left: 15%;
+        width: 70%;
+        height: 500px;
+        background-color: #262732;
+        border-radius: 10px;
+        box-shadow: 5px 5px 5px #171717;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
 
-#blog {
-    cursor: pointer;
-}
+    #blog {
+        cursor: pointer;
+    }
 
-#closeblog {
-    position: absolute;
-    top: 15px;
-    right: 15px;
-    color: #7fd1e4;
-    font-size: 25px;
-    font-style: normal;
-    cursor: pointer;
-}
+    #closeblog {
+        position: absolute;
+        top: 15px;
+        right: 15px;
+        color: #7fd1e4;
+        font-size: 25px;
+        font-style: normal;
+        cursor: pointer;
+    }
 
-#readmore {
-    position: absolute;
-    left: 10px;
-    top: 10px;
-    font-style: normal;
-    background-color: #1e1f29;
-    padding: 5px;
-}
+    #readmore {
+        position: absolute;
+        left: 10px;
+        top: 10px;
+        font-style: normal;
+        background-color: #1e1f29;
+        padding: 5px;
+    }
 
-#blogscroll {
-    position: relative;
-    overflow: auto;
-    height: 380px;
-    margin-top: -10px;
-}
+    #blogscroll {
+        position: relative;
+        overflow: auto;
+        height: 380px;
+        margin-top: -10px;
+    }
 
-#container {
-    position: relative;
-    margin-top: 30px;
-}
+    #container {
+        position: relative;
+        margin-top: 30px;
+    }
 
-#inner {
-    display: inline-block;
-    column-count: 2;
-}
+    #inner {
+        display: inline-block;
+        column-count: 2;
+    }
 
-#links {
-    margin-top: 10px;
-    margin-left: 60px;
-    font-size: 30px;
-}
+    #links {
+        margin-top: 10px;
+        margin-left: 60px;
+        font-size: 30px;
+    }
 
-#underblog {
-    position: relative;
-    left: -113px;
-    top: -10px;
-    font-size: 15px;
-}
+    #underblog {
+        position: relative;
+        left: -113px;
+        top: -10px;
+        font-size: 15px;
+    }
 
-#underprojects {
-    position: relative;
-    top: -10px;
-    left: -68px;
-    font-size: 15px;
-}
+    #underprojects {
+        position: relative;
+        top: -10px;
+        left: -68px;
+        font-size: 15px;
+    }
 
-#undergithub {
-    position: relative;
-    top: -10px;
-    left: -19px;
-    font-size: 15px;
-}
+    #undergithub {
+        position: relative;
+        top: -10px;
+        left: -19px;
+        font-size: 15px;
+    }
 
-#underlinkedin {
-    position: relative;
-    top: -10px;
-    left: 27px;
-    font-size: 15px;
-}
+    #underlinkedin {
+        position: relative;
+        top: -10px;
+        left: 27px;
+        font-size: 15px;
+    }
 
-#undertwitter {
-    position: relative;
-    top: -10px;
-    left: 68px;
-    font-size: 15px;
-}
+    #undertwitter {
+        position: relative;
+        top: -10px;
+        left: 68px;
+        font-size: 15px;
+    }
 
-#underemail {
-    position: relative;
-    left: 112px;
-    top: -10px;
-    font-size: 15px;
-}
+    #underemail {
+        position: relative;
+        left: 112px;
+        top: -10px;
+        font-size: 15px;
+    }
 }
 
 /*Desktop Stylings 576px+ */
 @media (min-width: 0px) and (max-width: 767px) {    
+     h1 {
+        font-size: 4em;
+        text-align: left;
+        margin: auto;
+        /* margin-left: -120px; */
+        color: #fa85d3;
+    }
 
-h1 {
-    font-size: 4em;
-    text-align: left;
-    margin-left: -120px;
-    color: #fa85d3;
-}
+    /* #pfp {
+        width: 174px;
+        height: 149px;
+        margin-top: 20px;
+        margin-left: -180px;
+    } */
 
-#pfp {
-    width: 174px;
-    height: 149px;
-    margin-top: 20px;
-    margin-left: -180px;
-}
+    div #underheader {
+        position: relative;
+        text-align: left;
+        color:#dae98a;
+        margin: auto;
+        /* margin-top: -50px;
+        margin-left: -115px; */
+    }
 
-div #underheader {
-    position: relative;
-    text-align: left;
-    color:#dae98a;
-    margin-top: -50px;
-    margin-left: -115px;
-}
+    #about {
+        margin-top: 10px;
+        margin-left: -110px;
+        text-align: left;
+        width: 350px;
+        word-wrap: normal;
+    }
 
-#about {
-    margin-top: 10px;
-    margin-left: -110px;
-    text-align: left;
-    width: 350px;
-    word-wrap: normal;
-}
+    a {
+        color: #7fd1e4;
+        text-decoration: none;
+    }
 
-a {
-    color: #7fd1e4;
-    text-decoration: none;
-}
+    a:hover {
+        color: #dae98a;
+    }
 
-a:hover {
-    color: #dae98a;
-}
+    h2 {
+        color: #8bd8ab;
+    }
 
-h2 {
-    color: #8bd8ab;
-}
+    .hidden {
+        display: none;
+    }
 
-.hidden {
-    display: none;
-}
+    .latestpost {
+        position: absolute;
+        top: 42%;
+        left: 15%;
+        width: 70%;
+        height: 500px;
+        background-color: #262732;
+        border-radius: 10px;
+        box-shadow: 5px 5px 5px #171717;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
 
-.latestpost {
-    position: absolute;
-    top: 42%;
-    left: 15%;
-    width: 70%;
-    height: 500px;
-    background-color: #262732;
-    border-radius: 10px;
-    box-shadow: 5px 5px 5px #171717;
-    padding-left: 30px;
-    padding-right: 30px;
-}
+    #blog {
+        cursor: pointer;
+    }
 
-#blog {
-    cursor: pointer;
-}
+    #closeblog {
+        position: absolute;
+        top: 15px;
+        right: 15px;
+        color: #7fd1e4;
+        font-size: 25px;
+        font-style: normal;
+        cursor: pointer;
+    }
 
-#closeblog {
-    position: absolute;
-    top: 15px;
-    right: 15px;
-    color: #7fd1e4;
-    font-size: 25px;
-    font-style: normal;
-    cursor: pointer;
-}
+    #readmore {
+        position: absolute;
+        left: 10px;
+        top: 10px;
+        font-style: normal;
+        background-color: #1e1f29;
+        padding: 5px;
+    }
 
-#readmore {
-    position: absolute;
-    left: 10px;
-    top: 10px;
-    font-style: normal;
-    background-color: #1e1f29;
-    padding: 5px;
-}
+    #blogscroll {
+        position: relative;
+        overflow: auto;
+        height: 380px;
+        margin-top: -10px;
+    }
 
-#blogscroll {
-    position: relative;
-    overflow: auto;
-    height: 380px;
-    margin-top: -10px;
-}
+    #container {
+        position: relative;
+        margin: auto;
+        /* margin-top: 30px; */
+    }
 
-#container {
-    position: relative;
-    margin-top: 30px;
-}
+    #inner {
+        display: inline-block;
+        column-count: 2;
+    }
 
-#inner {
-    display: inline-block;
-    column-count: 2;
-}
+    #links {
+        margin: auto;
+        /* margin-left: -40px; */
+        font-size: 50px;
+    }
 
-#links {
-    top: 100px;
-    margin-left: -40px;
-    font-size: 30px;
-}
+    #underblog {
+        position: relative;
+        /* left: -113px;
+        top: -10px; */
+        font-size: 15px;
+    }
 
-#underblog {
-    position: relative;
-    left: -113px;
-    top: -10px;
-    font-size: 15px;
-}
+    #underprojects {
+        position: relative;
+        /* top: -10px;
+        left: -68px; */
+        font-size: 15px;
+    }
 
-#underprojects {
-    position: relative;
-    top: -10px;
-    left: -68px;
-    font-size: 15px;
-}
+    #undergithub {
+        position: relative;
+        /* top: -10px;
+        left: -19px; */
+        font-size: 15px;
+    }
 
-#undergithub {
-    position: relative;
-    top: -10px;
-    left: -19px;
-    font-size: 15px;
-}
+    #underlinkedin {
+        position: relative;
+        /* top: -10px;
+        left: 27px; */
+        font-size: 15px;
+    }
 
-#underlinkedin {
-    position: relative;
-    top: -10px;
-    left: 27px;
-    font-size: 15px;
-}
+    #undertwitter {
+        position: relative;
+        /* top: -10px;
+        left: 68px; */
+        font-size: 15px;
+    }
 
-#undertwitter {
-    position: relative;
-    top: -10px;
-    left: 68px;
-    font-size: 15px;
-}
-
-#underemail {
-    position: relative;
-    left: 112px;
-    top: -10px;
-    font-size: 15px;
-}
+    #underemail {
+        position: relative;
+        /* left: 112px;
+        top: -10px; */
+        font-size: 15px;
+    }
 }
