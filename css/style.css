@@ -155,7 +155,7 @@ h2 {
 /*Desktop Stylings 768px+ */
 @media (min-width: 768px) and (max-width: 991px) {    
     h1 {
-        font-size: 4em;
+        font-size: 5em;
         text-align: left;
         margin: auto;
         /* margin-left: -120px; */
@@ -187,9 +187,11 @@ h2 {
     }
 
     #about {
-        margin-top: 10px;
-        margin-left: -110px;
+        /* margin-top: 10px;
+        margin-left: -110px; */
+        margin: auto;
         text-align: left;
+        font-size: 22px;
         width: 350px;
         word-wrap: normal;
     }
