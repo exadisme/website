@@ -155,7 +155,7 @@ h2 {
 /*Desktop Stylings 768px+ */
 @media (min-width: 768px) and (max-width: 991px) {    
     h1 {
-        font-size: 5em;
+        font-size: 6em;
         text-align: left;
         margin: auto;
         /* margin-left: -120px; */
