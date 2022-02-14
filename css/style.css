@@ -162,6 +162,14 @@ h2 {
         color: #fa85d3;
     }
 
+    #container {
+        position: relative;
+        width: 100%;
+        margin: auto;
+        /* margin-top: 30px; */
+    }
+
+
     /* #pfp {
         width: 174px;
         height: 149px;
@@ -244,12 +252,6 @@ h2 {
         overflow: auto;
         height: 380px;
         margin-top: -10px;
-    }
-
-    #container {
-        position: relative;
-        margin: auto;
-        /* margin-top: 30px; */
     }
 
     #inner {
