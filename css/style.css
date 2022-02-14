@@ -18,6 +18,13 @@ h1 {
     color: #fa85d3;
 }
 
+#pfp {
+        height: 297px;
+        width: 348px;
+        margin: 0px;
+        text-align: left;
+    }
+
 div #underheader {
     position: relative;
     text-align: left;
