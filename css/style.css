@@ -256,6 +256,7 @@ h2 {
 
     #inner {
         display: inline-block;
+        width: 100%;
         column-count: 2;
     }
 
