@@ -431,8 +431,8 @@ h2 {
     }
 
     #links {
-        position: relative;
-        margin-top: 40px;
+        position: absolute;
+        top: 420px;
         /* margin-left: -40px; */
         font-size: 50px;
     }
