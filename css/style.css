@@ -34,6 +34,7 @@ div #underheader {
 }
 
 #about {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin-top: 20px;
     margin-left: -35px;
     text-align: left;
@@ -172,7 +173,7 @@ h2 {
     #container {
         position: relative;
         width: 100%;
-        height: 400px;
+        height: 420px;
         margin: auto;
         /* margin-top: 30px; */
     }
@@ -181,14 +182,12 @@ h2 {
         display: inline-block;
         width: 100%;
         column-count: 2;
-        height: 400px;
     }
 
     #pfp {
         height: 297px;
         width: 348px;
         margin: 0px;
-        left: 0px;
     }
 
     div #underheader {
@@ -201,15 +200,10 @@ h2 {
     }
 
     #about {
-        /* margin-top: 10px;
-        margin-left: -110px; */
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         margin: auto;
         text-align: left;
         font-size: 22px;
-        /* width: 500px; */
-        /* height: 50px; */
-        /* word-wrap: normal; */
     }
 
     a {
