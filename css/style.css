@@ -188,7 +188,7 @@ h2 {
         height: 297px;
         width: 348px;
         margin: 0px;
-        text-align: left;
+        left: 0px;
     }
 
     div #underheader {
