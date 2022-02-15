@@ -165,9 +165,9 @@ h2 {
     h1 {
         font-size: 7em;
         text-align: left;
-        margin: auto auto auto -50px;
+        margin: auto auto auto -60px;
         /* margin-left: -120px; */
-        color: #fa85d3;
+        color: #8bd8ab;
     }
 
     #container {
@@ -194,7 +194,7 @@ h2 {
         position: relative;
         text-align: left;
         color:#dae98a;
-        margin: -10px 20px auto auto;
+        margin: -30px 40px auto auto;
         /* margin-top: -50px;
         margin-left: -115px; */
     }
@@ -217,7 +217,7 @@ h2 {
     }
 
     h2 {
-        color: #8bd8ab;
+        color: #fa85d3;
     }
 
     .hidden {
