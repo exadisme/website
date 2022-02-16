@@ -276,21 +276,21 @@ h2 {
     #underblog {
         position: relative;
         top: -50px;
-        left: -305px;
+        left: -306px;
         font-size: 15px;
     }
 
     #underprojects {
         position: relative;
         top: -50px;
-        left: -180px;
+        left: -182px;
         font-size: 15px;
     }
 
     #undergithub {
         position: relative;
         top: -50px;
-        left: -50px;
+        left: -48px;
         font-size: 15px;
     }
 
@@ -311,7 +311,7 @@ h2 {
     #underemail {
         position: relative;
         top: -50px;
-        left: 295px;
+        left: 294px;
         font-size: 15px;
     }
 }
