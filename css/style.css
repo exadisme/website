@@ -195,8 +195,6 @@ h2 {
         text-align: left;
         color:#dae98a;
         margin: -24px auto auto 40px;
-        /* margin-top: -50px;
-        margin-left: -115px; */
     }
 
     #about {
@@ -322,7 +320,6 @@ h2 {
         font-size: 7em;
         text-align: left;
         margin: auto;
-        /* margin-left: -120px; */
         color: #fa85d3;
     }
 
@@ -352,19 +349,12 @@ h2 {
         text-align: left;
         color:#dae98a;
         margin: auto;
-        /* margin-top: -50px;
-        margin-left: -115px; */
     }
 
     #about {
-        /* margin-top: 10px;
-        margin-left: -110px; */
         margin: auto;
         text-align: left;
         font-size: 30px;
-        /* width: 500px; */
-        /* height: 50px; */
-        /* word-wrap: normal; */
     }
 
     a {
