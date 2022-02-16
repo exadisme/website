@@ -297,21 +297,21 @@ h2 {
     #underlinkedin {
         position: relative;
         top: -50px;
-        left: 62px;
+        left: 63px;
         font-size: 15px;
     }
 
     #undertwitter {
         position: relative;
         top: -50px;
-        left: 155px;
+        left: 170px;
         font-size: 15px;
     }
 
     #underemail {
         position: relative;
         top: -50px;
-        left: 297px;
+        left: 295px;
         font-size: 15px;
     }
 }
