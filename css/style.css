@@ -34,11 +34,9 @@ h1 {
 }
 
 #pfp {
-    position: relative;
-    right: 20;
     height: 297px;
     width: 348px;
-    margin: 0px;
+    margin: 0px 0px 0px 200px;
 }
 
 div #underheader {
