@@ -34,6 +34,7 @@ h1 {
 }
 
 #pfp {
+    right: 20;
     height: 297px;
     width: 348px;
     margin: 0px;
