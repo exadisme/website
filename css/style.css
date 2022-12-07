@@ -12,9 +12,9 @@ body {
 }
 
 h1 {
-    font-size: 10px;
+    font-size: 1e;
     text-align: left;
-    margin: auto auto auto -60px;
+    margin: auto auto auto auto;
     /* margin-left: -120px; */
     color: #8bd8ab;
 }
