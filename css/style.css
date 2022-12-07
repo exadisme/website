@@ -12,11 +12,11 @@ body {
 }
 
 h1 {
-    font-size: 1em;
-    text-align: left;
+/*    font-size: 1em;
+    text-align: center;
     margin: auto auto auto auto;
-    /* margin-left: -120px; */
-    color: #8bd8ab;
+    /* margin-left: -120px;
+    color: #8bd8ab; */
 }
 
 #container {
