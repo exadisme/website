@@ -11,13 +11,13 @@ body {
     margin: 0 !important;
 }
 
-/*h1 {
+h1 {
     font-size: 1em;
     text-align: center;
     margin: auto auto auto auto;
-    /* margin-left: -120px;
+    /*margin-left: -120px;*/
     color: #8bd8ab;
-}*/
+}
 
 #container {
     position: relative;
@@ -173,12 +173,14 @@ h2 {
     font-size: 15px;
 }
 
+
+
 /*Desktop Stylings 768px+ */
 @media (min-width: 768px) and (max-width: 991px) {    
     h1 {
-        font-size: 7em;
+        font-size: 1em;
         text-align: left;
-        margin: auto auto auto -60px;
+        margin: auto auto auto auto;
         /* margin-left: -120px; */
         color: #8bd8ab;
     }
@@ -330,7 +332,7 @@ h2 {
 /*Desktop Stylings 576px+ */
 @media (min-width: 0px) and (max-width: 767px) {    
      h1 {
-        font-size: 7em;
+        font-size: 1em;
         text-align: left;
         margin: auto;
         color: #8bd8ab;
