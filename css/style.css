@@ -175,13 +175,13 @@ h2 {
 
 
 
-/*Desktop Stylings 768px+ */
+/*Desktop Stylings 768px+ 
 @media (min-width: 768px) and (max-width: 991px) {    
     h1 {
         font-size: 1em;
         text-align: center;
         margin: auto auto auto auto;
-        /* margin-left: -120px; */
+        /* margin-left: -120px;
         color: #8bd8ab;
     }
 
@@ -190,7 +190,7 @@ h2 {
         width: 100%;
         height: 400px;
         margin: 40px auto auto auto;
-        /* margin-top: 30px; */
+        /* margin-top: 30px; 
     }
 
     #inner {
@@ -329,12 +329,12 @@ h2 {
     }
 }
 
-/*Desktop Stylings 576px+ */
+/*Desktop Stylings 576px+ 
 @media (min-width: 0px) and (max-width: 767px) {    
      h1 {
         font-size: 1em;
         text-align: center;
-        margin: auto;
+        margin: auto auto auto auto;
         color: #8bd8ab;
     }
 
@@ -343,7 +343,7 @@ h2 {
         width: 100%;
         height: 297px;
         margin: auto;
-        /* margin-top: 30px; */
+        /* margin-top: 30px; 
     }
 
     #inner {
@@ -435,49 +435,49 @@ h2 {
     #links {
         position: absolute;
         top: 420px;
-        /* margin-left: -40px; */
+        /* margin-left: -40px;
         font-size: 80px;
     }
 
     #underblog {
         position: relative;
         /* left: -113px;
-        top: -10px; */
+        top: -10px; 
         font-size: 15px;
     }
 
     #underprojects {
         position: relative;
         /* top: -10px;
-        left: -68px; */
+        left: -68px; 
         font-size: 15px;
     }
 
     #undergithub {
         position: relative;
         /* top: -10px;
-        left: -19px; */
+        left: -19px; 
         font-size: 15px;
     }
 
     #underlinkedin {
         position: relative;
         /* top: -10px;
-        left: 27px; */
+        left: 27px; 
         font-size: 15px;
     }
 
     #undertwitter {
         position: relative;
         /* top: -10px;
-        left: 68px; */
+        left: 68px; 
         font-size: 15px;
     }
 
     #underemail {
         position: relative;
         /* left: 112px;
-        top: -10px; */
+        top: -10px; 
         font-size: 15px;
     }
-}
+} */
