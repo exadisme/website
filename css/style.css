@@ -47,11 +47,11 @@ div #underheader {
     font-size: 24px;
 }
 
-a .col1 {
+a #col1 {
    color: #64fa54;
 }
 
-a .col2 {
+a #col2 {
    color: #ffb2ee;
 }
 
