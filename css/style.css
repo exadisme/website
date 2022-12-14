@@ -19,19 +19,6 @@ h1 {
     color: #8bd8ab;
 }
 
-#container {
-    position: relative;
-    text-align: left;
-    margin: 50px;
-    /* margin-top: 30px; */
-}
-
-#inner {
-    display: inline-block;
-    width: 100%;
-    column-count: 2;
-}
-
 div #underheader {
     position: relative;
     text-align: left;
@@ -47,20 +34,16 @@ div #underheader {
     font-size: 24px;
 }
 
-a #col1 {
+a .col1 {
    color: #64fa54;
 }
 
-a #col2 {
+a .col2 {
    color: #ffb2ee;
 }
 
 h2 {
     color: #8bd8ab;
-}
-
-.hidden {
-    display: none;
 }
 
 .latestpost {
@@ -74,10 +57,6 @@ h2 {
     box-shadow: 5px 5px 5px #171717;
     padding-left: 30px;
     padding-right: 30px;
-}
-
-#blog {
-    cursor: pointer;
 }
 
 #blogscroll {
