@@ -47,19 +47,11 @@ div #underheader {
     font-size: 24px;
 }
 
-/*a {
-    color: #7fd1e4;
-    text-decoration: none;
-}
-
-a:hover {
-    color: #dae98a;
-}*/
-.col1 {
+a .col1 {
    color: red;
 }
 
-.col2 {
+a .col2 {
    color: blue;
 }
 
