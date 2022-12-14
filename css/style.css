@@ -14,7 +14,7 @@ body {
 h1 {
     font-size: 4em;
     text-align: left;
-    margin: auto auto 50px auto;
+    margin: auto 50px 50px auto;
     /*margin-left: -120px;*/
     color: #8bd8ab;
 }
