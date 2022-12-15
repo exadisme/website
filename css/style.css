@@ -7,6 +7,7 @@ body {
     text-align: center;
     font-family: 'Share Tech Mono', monospace;
     color: #e8e9f1;
+    background-color: #ffc8ff;
     padding: 0 !important;
     margin: 0 !important;
 }
@@ -16,7 +17,8 @@ h1 {
     text-align: left;
     margin: auto auto;
     margin-left: 50px;
-    color: #8bd8ab;
+    color: #8be9fd;
+    background-color: #282a36;
 }
 
 div #underheader {
