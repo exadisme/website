@@ -22,8 +22,9 @@ h1 {
     color: #8be9fd;
 }
 
-div .header {
+.header {
    width: 100%;
+   height: auto;
    background-color: #282a36;
 }
 
