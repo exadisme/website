@@ -53,6 +53,14 @@ h3 {
     background-color: #282a36;
 }
 
+.bloggers {
+    margin: 0 auto;
+    position: relative;
+    overflow: auto;
+    text-align: center;
+    float: center;
+}
+
 #blogscroll {
     margin: 0 auto;
     position: relative;
