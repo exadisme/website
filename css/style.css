@@ -51,7 +51,7 @@ h2 {
     background-color: #282a36;
     width: 300px;
     border-radius: 5px;
-    text-align: center;
+    margin-left: 30px;
 }
 
 h3 {
@@ -70,7 +70,6 @@ a:hover {
     margin: 0 auto;
     position: relative;
     overflow: auto;
-    text-align: center;
     float: center;
 }
 
@@ -79,13 +78,13 @@ a:hover {
     height: 35%;
     background-color: #282a36;
     width: 85%;
+    margin-left: 30px;
 }
 
 #nextprev {
     width: 100px;
     text-align: center;
     background-color: #282a36;
-    margin: auto 25px;
 }
 
 /*Desktop Stylings 768px+ 
