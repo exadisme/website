@@ -53,6 +53,10 @@ h3 {
     background-color: #282a36;
 }
 
+a:hover {
+    color: #ffc8ff;
+}
+
 .bloggers {
     margin: 0 auto;
     position: relative;
