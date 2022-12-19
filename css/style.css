@@ -53,14 +53,14 @@ h2 {
     width: 30%;
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
-    padding-left: 40px;
-    padding-right: 10px;
+    padding-left: 60px;
+    padding-right: 25px;
 }
 
 h3 {
     position: relative;
-    padding-left: 40px;
-    padding-right: 10px;
+    padding-left: 60px;
+    padding-right: 25px;
     text-align: right;
     background-color: #282a36;
     width: 30%;
@@ -83,9 +83,8 @@ a:hover {
     height: 35%;
     background-color: #282a36;
     width: 85%;
-    padding-left: 40px;
-    padding-left: 40px;
-    padding-right: 10px;
+    padding-left: 60px;
+    padding-right: 25px;
 }
 
 #nextprev {
