@@ -82,6 +82,7 @@ a:hover {
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
     height: 35%;
+    text-align: left;
     background-color: #282a36;
     width: 85%;
     padding-left: 60px;
