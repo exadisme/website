@@ -61,6 +61,12 @@ h3 {
     width: 85%;
 }
 
+#nextprev {
+    width: 20%;
+    text-align: center;
+    background-color: #282a36;
+}
+
 /*Desktop Stylings 768px+ 
 @media (min-width: 768px) and (max-width: 991px) {    
 
