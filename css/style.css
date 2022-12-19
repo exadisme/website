@@ -54,10 +54,10 @@ h3 {
 }
 
 #blogscroll {
-    position: relative;
-    text-align: center;
+    position: absolute;
     overflow: auto;
-    height: 35%;
+    float: center;
+    height: 380px;
     background-color: #282a36;
     width: 85%;
 }
