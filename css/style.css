@@ -48,10 +48,14 @@ div #underheader {
 h2 {
     color: #8bd8ab;
     background-color: #282a36;
+    width: 300px;
+    border-radius: 5px;
 }
 
 h3 {
     background-color: #282a36;
+    width: 250px;
+    border-radius: 5px;
 }
 
 a:hover {
@@ -77,6 +81,7 @@ a:hover {
     width: 100px;
     text-align: center;
     background-color: #282a36;
+    margin: auto 25px;
 }
 
 /*Desktop Stylings 768px+ 
