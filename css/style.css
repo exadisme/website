@@ -46,6 +46,11 @@ div #underheader {
 
 h2 {
     color: #8bd8ab;
+    background-color: #282a36;
+}
+
+h3 {
+    background-color: #282a36;
 }
 
 #blogscroll {
