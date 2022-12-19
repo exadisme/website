@@ -37,8 +37,8 @@ div #underheader {
 
 #about {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    margin: 10px auto auto -30px;
-    width: 60%;
+    margin: auto auto auto auto;
+    width: 75%;
     color: #282a36;
     text-align: left;
     font-size: 24px;
