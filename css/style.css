@@ -66,11 +66,12 @@ a:hover {
 }
 
 #blogscroll {
+    position: float;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
     border-width: 0px;
     height: 500px;
-    align-items: left;
+    float: left;
     text-align: left;
     background-color: #282a36;
     color: #ffc8ff;
