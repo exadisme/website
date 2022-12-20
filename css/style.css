@@ -81,10 +81,10 @@ a:hover {
 }
 
 #nextprev {
+    position: relative;
     width: 100px;
     text-align: center;
     background-color: #282a36;
-    float: bottom;
 }
 
 /*Desktop Stylings 768px+ 
