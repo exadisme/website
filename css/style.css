@@ -91,6 +91,7 @@ a:hover {
 #nextprev {
     position: relative;
     width: 100px;
+    float: inline-end;
     text-align: center;
     background-color: #282a36;
 }
