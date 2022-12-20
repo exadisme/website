@@ -70,7 +70,7 @@ a:hover {
     border-bottom-right-radius: 10px;
     border-width: 0px;
     height: 600px;
-    margin-left: 0px;
+    float: left;
     text-align: left;
     color: #ffc8ff;
     width: 85%;
@@ -80,7 +80,6 @@ a:hover {
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
     border-width: 0px;
-    height: 500px;
     text-align: left;
     background-color: #282a36;
     color: #ffc8ff;
