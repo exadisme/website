@@ -95,6 +95,7 @@ a:hover {
     float: inline-end;
     text-align: center;
     background-color: #282a36;
+    clear: both;
 }
 
 /*Desktop Stylings 768px+ 
