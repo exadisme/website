@@ -60,11 +60,6 @@ a:hover {
     color: #ffc8ff;
 }
 
-.bloggers {
-    position: relative;
-    overflow: auto;
-}
-
 #frame {
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
@@ -77,6 +72,8 @@ a:hover {
 }
 
 #blogscroll {
+    position: relative;
+    overflow: auto;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
     border-width: 0px;
@@ -89,10 +86,15 @@ a:hover {
     padding-right: 25px;
 }
 
+#nextprevcont{
+   position: relative;
+   width: 35%;
+   text-align: right;
+}
+
 #nextprev {
     position: relative;
     width: 100px;
-    float: inline-end;
     text-align: center;
     background-color: #282a36;
     clear: both;
