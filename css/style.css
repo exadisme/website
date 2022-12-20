@@ -65,6 +65,20 @@ a:hover {
     overflow: auto;
 }
 
+#frame {
+    position: float;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-width: 0px;
+    height: 500px;
+    float: left;
+    text-align: left;
+    color: #ffc8ff;
+    width: 85%;
+    padding-left: 60px;
+    padding-right: 25px;
+ }
+
 #blogscroll {
     position: float;
     border-top-right-radius: 10px;
@@ -73,6 +87,7 @@ a:hover {
     height: 500px;
     float: left;
     text-align: left;
+    background-color: #282a36;
     color: #ffc8ff;
     width: 85%;
     padding-left: 60px;
