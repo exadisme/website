@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<title>Adam's blog</title>
+
+   <link rel="stylesheet" href="./css/style.css">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
+<!-- Pending creation of icon.  
+   <link rel="icon" type="image/png" sizes="16x16" href="/path/to/icon-16x16.png">
+   <link rel="icon" type="image/png" sizes="32x32" href="/path/to/icon-32x32.png">
+   <link rel="icon" type="image/png" sizes="64x64" href="/path/to/icon-64x64.png">
+-->
+</head>
+<body>
+   <div id="blogscroll"><p>Dec, 20th 2022</p><p>Today, I'd like to talk about my experience switching from Arch Linux to Gentoo.<p>
+      First, let me mention that before installation, I set up an encrypted btrfs filesystem with the following subvolumes: "@", "@log", "@swap", "@snapshots", and "@home". Mounted as such:</p>
+      <code>└─nvme0n1p2 259:2    0 465.4G  0 part  
+  └─root    254:0    0 465.4G  0 crypt 
+		@log   		  /var/log
+                        @swap             /swap
+                        @snapshots      /snapshots
+                        @home             /home
+                        @           	  /</code>
+      <p>One of the reasons I decided to switch to Gentoo was because of its flexibility and ability to be customized. This was particularly appealing to me because I wanted to try out different init systems. Initially, I experimented with open rc, but ultimately decided to revert back to systemd as I found it to be faster overall. </p>
+      <p>In Gentoo Linux, useflags are a way to enable or disable specific features in packages when they are compiled. There are two types of useflags: global and per-application.</p>
+      <p>Global useflags are defined in the /etc/portage/make.conf file and apply to all packages on the system. For example, if you wanted to enable support for XMPP in all packages that have it as an option, you could add "XMPP" to the USE variable in make.conf like this:
+      <code>USE="XMPP"</code>
+      <p>Per-application useflags, on the other hand, are defined in the /etc/portage/package.use file and only apply to specific packages. This allows you to enable or disable features on a package-by-package basis. For example, if you wanted to enable XMPP support only for the Pidgin instant messaging client, you could add the following line to package.use:</p>
+      <code>net-im/pidgin XMPP</code>
+      <p>By using global and per-application useflags, you have more control over the features that are enabled in the packages that are installed on your system. This can be useful if you want to optimize your system for specific tasks or if you want to avoid compiling in features that you don't need.</p>
+      <p>In terms of my setup, I decided to stick with a tiling window manager (dwm) and a compositor (picom) rather than using a full-fledged desktop environment. I did this for aesthetics and because I find it to be a more efficient way to work.</p>
+      <p>Overall, I've been really happy with my switch to Gentoo. It's allowed me to customize my system to my liking and I've been able to get a bit more experience with different init systems. Plus, I love the tiling window manager setup.</p>
+      <p>If you're considering making the switch to Gentoo, I'd definitely recommend giving it a try! Just be prepared to put in a bit of time to set it up and customize it to your liking.</p></div>
+</body>
+</html>
