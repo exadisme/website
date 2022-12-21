@@ -17,12 +17,12 @@
    <div id="blogscroll"><p>Dec, 20th 2022</p><p>Today, I'd like to talk about my experience switching from Arch Linux to Gentoo.<p>
       First, let me mention that before installation, I set up an encrypted btrfs filesystem with the following subvolumes: "@", "@log", "@swap", "@snapshots", and "@home". Mounted as such:</p>
       <code>└─nvme0n1p2 259:2    0 465.4G  0 part  
-  └─root    254:0    0 465.4G  0 crypt 
-		@log   		  /var/log
-                        @swap             /swap
-                        @snapshots      /snapshots
-                        @home             /home
-                        @           	  /</code>
+         <br>└─root    254:0    0 465.4G  0 crypt 
+         <br>@log   		  /var/log
+         <br>@swap             /swap
+         <br>@snapshots      /snapshots
+         <br>@home             /home
+         <br>@           	  /</code>
       <p>One of the reasons I decided to switch to Gentoo was because of its flexibility and ability to be customized. This was particularly appealing to me because I wanted to try out different init systems. Initially, I experimented with open rc, but ultimately decided to revert back to systemd as I found it to be faster overall. </p>
       <p>In Gentoo Linux, useflags are a way to enable or disable specific features in packages when they are compiled. There are two types of useflags: global and per-application.</p>
       <p>Global useflags are defined in the /etc/portage/make.conf file and apply to all packages on the system. For example, if you wanted to enable support for XMPP in all packages that have it as an option, you could add "XMPP" to the USE variable in make.conf like this:
