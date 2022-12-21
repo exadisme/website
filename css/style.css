@@ -88,7 +88,7 @@ a:hover {
 
 #nextprevcont{
    position: relative;
-   width: 30%;
+   width: 28%;
    text-align: right;
 }
 
@@ -96,13 +96,16 @@ a:hover {
     position: relative;
     width: 100px;
     text-align: center;
-    background-color: #282a36;
     clear: both;
     margin-left: 100%;
 }
 
-.codeblock {
-   padding-left: 50px;
+.nextprevclass {
+    position: relative;
+    background-color: #282a36;
+    text-align: center;
+    padding: 5px 10px;
+    color: #dee684;
 }
 
 /*Desktop Stylings 768px+ 
