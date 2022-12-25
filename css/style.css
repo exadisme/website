@@ -24,13 +24,31 @@ h1 {
 }
 
 #header {
-   width: 100%;
+   display: flex;
+   column-count: 2;
    height: auto;
    background-color: #282a36;
 }
 
+#icons {
+   text-align: left;
+   margin-right: 100px;
+   margin-top: 35px;
+}
+i:hover {
+   color: #fdfd86;
+}
+
+i {
+   color: #9c7ae3;
+   font-size: 22px;
+   padding: 20px;
+   padding-right: 20px;
+   padding-top: 5%;
+}
+
 div #underheader {
-    position: relative;
+   position: relative;
     text-align: left;
     color:#dae98a;
     margin: -24px auto auto 40px;
@@ -42,18 +60,22 @@ div #underheader {
     width: 70%;
     color: #ffc8ff;
     text-align: left;
- }
+}
 
 h2 {
     position: relative;
     text-align: right;
-    color: #8bd8ab;
+    color: #5fff87;
     background-color: #282a36;
     width: 35%;
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
     padding-left: 60px;
     padding-right: 25px;
+}
+
+a {
+   color: #9c7ae3;
 }
 
 a:hover {
